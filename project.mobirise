@@ -880,7 +880,7 @@
             "timeout": "5",
             "slides": [
               {
-                "active": true,
+                "active": false,
                 "image": "@PROJECT_PATH@/assets/images/wechatimg4-2000x1331.png",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
@@ -894,7 +894,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mp.weixin.qq.com/mp/homepage?__biz=MzA3OTAxMjg3MA==&amp;hid=3&amp;sn=b20bb7735399245eb62c6eabca6cefc5&amp;devicetype=iOS10.2.1&amp;version=12020510&amp;lang=zh_CN&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=8jYyBmPPeEumoA4Ll3mKzctUi8XEdeODJD3PoUk9X%2Bc%3D&amp;wx_header=1&amp;scene=1\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">场馆</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">教练</a>"
               },
               {
-                "active": false,
+                "active": true,
                 "image": "@PROJECT_PATH@/assets/images/wechatimg1-2000x1500.png",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
@@ -906,20 +906,6 @@
                 "text": "2017年5月22日<br>上海<br><br>",
                 "showButtons": true,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"http://lianba2017.mikecrm.com/jAnVwi5\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">在线报名</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&amp;mid=2652889252&amp;idx=3&amp;sn=74a4be1444970913e7b2fd5d4bcdbbfb&amp;chksm=8452b5cdb3253cdb993e5e770ca3126dffb65a1ad69f10d1e707ed6fb0be1cfbeca174b58b5b&amp;mpshare=1&amp;scene=1&amp;srcid=0426m1WDHur9gwBTBwTsc8Ty&amp;key=39cae78ea272251c1b7a98bee61ee062e9a514e9e35d9f2c272479f8f95bd2635b051a225734c695e05df03e072f9a9e09db8764b80b2562082d9bd4cffd0ea14770256de4b8916a0918a09c7fcbed1d&amp;ascene=0&amp;uin=MTgyODkxMzIw&amp;devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&amp;version=12020510&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=8jYyBmPPeEumoA4Ll3mKzctUi8XEdeODJD3PoUk9X%2Bc%3D\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">更多详情</a>"
-              },
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/wechatimg3-2000x915.png",
-                "playVideo": false,
-                "videoUrl": "",
-                "overlay": true,
-                "contentAlign": "left",
-                "showTitle": true,
-                "title": "零距离领略<br>欧美最新健身趋势",
-                "showText": true,
-                "text": "德国 FIBO 展练吧独家看点（上）",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
             ],
             "fullScreen": true,
