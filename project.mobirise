@@ -1,0 +1,1266 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "name": "练吧",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#ffffff",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 85,
+    "versionPublish": "3.12.1",
+    "favicon": "",
+    "noImageResize": ""
+  },
+  "pages": {
+    "场馆.html": {
+      "settings": {
+        "title": "Lianba",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 2
+      },
+      "components": [
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-7",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Lianba"
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-family": "'Roboto', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.8rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.866rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            ".btn": {
+              "font-size": "14px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-t",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Roboto",
+              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "css": "'Roboto', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": false,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/wechatimg1-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Lianba<br></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">教练</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://cn.mikecrm.com/Ysh2f0\" aria-expanded=\"false\" target=\"_blank\">职业调查</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mp.weixin.qq.com/mp/homepage?__biz=MzA3OTAxMjg3MA==&amp;hid=10&amp;sn=b5952f49d9844236b2e2fced9cf7ae16&amp;devicetype=iOS10.2.1&amp;version=12020510&amp;lang=zh_CN&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=8jYyBmPPeEumoA4Ll3mKzctUi8XEdeODJD3PoUk9X%2Bc%3D&amp;wx_header=1&amp;scene=1\" target=\"_blank\">调查报告</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mp.weixin.qq.com/mp/homepage?__biz=MzA3OTAxMjg3MA==&amp;hid=9&amp;sn=ba2801c8191e577d557a93b8cff8f1a0&amp;devicetype=iOS10.2.1&amp;version=12020510&amp;lang=zh_CN&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=8jYyBmPPeEumoA4Ll3mKzctUi8XEdeODJD3PoUk9X%2Bc%3D&amp;wx_header=1&amp;scene=1\" target=\"_blank\">教学内参</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">人物专访</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">工作室</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">展示申请</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">场馆评测</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mp.weixin.qq.com/mp/homepage?__biz=MzA3OTAxMjg3MA==&amp;hid=8&amp;sn=5bc9ff62fde016849e79d185367abe48&amp;devicetype=iOS10.2.1&amp;version=12020510&amp;lang=zh_CN&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=8jYyBmPPeEumoA4Ll3mKzctUi8XEdeODJD3PoUk9X%2Bc%3D&amp;wx_header=1&amp;scene=1\" target=\"_blank\">全球精选</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mp.weixin.qq.com/mp/homepage?__biz=MzA3OTAxMjg3MA==&amp;hid=3&amp;sn=b20bb7735399245eb62c6eabca6cefc5&amp;devicetype=iOS10.2.1&amp;version=12020510&amp;lang=zh_CN&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=8jYyBmPPeEumoA4Ll3mKzctUi8XEdeODJD3PoUk9X%2Bc%3D&amp;wx_header=1&amp;scene=1\">国内推荐</a></div></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"场馆.html\" aria-expanded=\"true\" target=\"_blank\">创业项目</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">知识</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mp.weixin.qq.com/mp/homepage?__biz=MzA3OTAxMjg3MA==&amp;hid=1&amp;sn=f47d7846256fa22d951a23b981e854c5&amp;devicetype=iOS10.2.1&amp;version=12020510&amp;lang=zh_CN&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=8jYyBmPPeEumoA4Ll3mKzctUi8XEdeODJD3PoUk9X%2Bc%3D&amp;wx_header=1&amp;scene=1\">好文</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://wx.xiaomiquan.com/mweb/views/joingroup/join_group.html?group_id=2414151451&amp;secret=l994nh1p8b35q04pxd4l38rrcic0t6uf&amp;extra=5b393916ddae54a1d126b38119326d35705db672173eb0d546dac72756603e13\" target=\"_blank\">收费内参</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&amp;mid=2652889252&amp;idx=3&amp;sn=74a4be1444970913e7b2fd5d4bcdbbfb&amp;chksm=8452b5cdb3253cdb993e5e770ca3126dffb65a1ad69f10d1e707ed6fb0be1cfbeca174b58b5b&amp;mpshare=1&amp;scene=1&amp;srcid=0426m1WDHur9gwBTBwTsc8Ty&amp;key=fd4db26972c531a2ddb131a2f38e2a12a23f67e302c9f692785c9ab7953c285a2a50d722c5abcef7aa3b298f1a1c40fd4c65796df8aefeb411f1ccffa841307de5d85c9e9aa1154ec1a9af91315c9ed5&amp;ascene=0&amp;uin=MTgyODkxMzIw&amp;devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&amp;version=12020510&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=8jYyBmPPeEumoA4Ll3mKzctUi8XEdeODJD3PoUk9X%2Bc%3D\" target=\"_blank\">5/22 圆桌论坛</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"https://mobirise.com/\">登录</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white\" href=\"http://data.newrank.cn/m/s.html?s=NywsPS05PCo5\" target=\"_blank\">注册</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "color": "#000000"
+            },
+            ".lead P": {
+              "color": "#000000",
+              "font-size": "12px"
+            },
+            ".btn": {
+              "font-size": "13px"
+            },
+            ".lead": {
+              "font-size": "12px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-18",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": true
+          },
+          "title": "Fitness Startups",
+          "text": "<p><br></p><p>再微弱的一束光，也要洒向需要光明的角落。</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">2,553 健身工作室</a> <a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">工作室申请</a> <a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">健身项目</a>     "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_styles": {
+            "H5": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "features3-19",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true
+          },
+          "media1": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/table.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "<font color=\"#000000\">&nbsp;TWM Fitness</font><font color=\"#000000\"><br></font><font color=\"#000000\">上海</font>",
+          "subtitle1": "2016年成立",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title2": "Onefit<br>北京",
+          "subtitle2": "2014年成立<br>Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "caption2": "",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title3": "<font color=\"#000000\">SuperMonkey</font><br><font color=\"#000000\">深圳</font>",
+          "subtitle3": "2015年成立",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title4": "&nbsp;CrossfitbodyinMotion<br>上海",
+          "subtitle4": "2016年成立<br>",
+          "caption4": "oogle has a highly exhaustive list ofonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/code-man-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/coworkers-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/desktop-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/room-laptop-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/table-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/table.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/windows-books-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/working-area-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/working-area.jpg",
+                "caption": "Type caption here"
+              }
+            ],
+            "spacing": 0,
+            "showText": false,
+            "filter": false,
+            "bgColor": "#FFFFFF",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-1k",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-1n",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "INTRO WITH YOUTUBE VIDEO",
+          "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-1m",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "SOLID COLOR INTRO WITH IMAGE",
+          "text": "Solid color intro with an image on the right side. Also this block has no paddings.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_inherit": "features4",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".card-subtitle": {
+              "color": "#bcbcbc"
+            },
+            ".iconbox": {
+              "background-color": "@primaryColor",
+              "border-color": "@primaryColor"
+            }
+          },
+          "_name": "features7",
+          "_anchor": "features7-1j",
+          "_params": {
+            "iconsBgColor": "@primaryColor",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "phone",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title1": "填写表单",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "edit",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title2": "上传照片",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title3": "练吧认证",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title4": "<font color=\"#000000\">网站公示</font>",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form2",
+          "_anchor": "form2-1b",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "SUBSCRIBE FORM",
+          "subtitle": "Subscribe to our Newsletter",
+          "form": {
+            "action": "504141263@qq.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Your Email Address..."
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"></a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
+          "_anchor": "form1-1l",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "CONTACT FORM",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "form": {
+            "action": "504141263@qq.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
+        }
+      ]
+    },
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Lianba",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "text-align": "right"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-o",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "关于我",
+          "meta": ""
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-family": "'Roboto', sans-serif"
+            },
+            ".link": {
+              "font-size": "0.8rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.866rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            ".btn": {
+              "font-size": "14px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-t",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "0.8",
+            "fontName": {
+              "name": "Roboto",
+              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "css": "'Roboto', sans-serif"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": false,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/wechatimg1-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Lianba<br></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">教练</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://cn.mikecrm.com/Ysh2f0\" aria-expanded=\"false\" target=\"_blank\">职业调查</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mp.weixin.qq.com/mp/homepage?__biz=MzA3OTAxMjg3MA==&amp;hid=10&amp;sn=b5952f49d9844236b2e2fced9cf7ae16&amp;devicetype=iOS10.2.1&amp;version=12020510&amp;lang=zh_CN&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=8jYyBmPPeEumoA4Ll3mKzctUi8XEdeODJD3PoUk9X%2Bc%3D&amp;wx_header=1&amp;scene=1\" target=\"_blank\">调查报告</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mp.weixin.qq.com/mp/homepage?__biz=MzA3OTAxMjg3MA==&amp;hid=9&amp;sn=ba2801c8191e577d557a93b8cff8f1a0&amp;devicetype=iOS10.2.1&amp;version=12020510&amp;lang=zh_CN&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=8jYyBmPPeEumoA4Ll3mKzctUi8XEdeODJD3PoUk9X%2Bc%3D&amp;wx_header=1&amp;scene=1\" target=\"_blank\">教学内参</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">人物专访</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">工作室</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">展示申请</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">场馆评测</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mp.weixin.qq.com/mp/homepage?__biz=MzA3OTAxMjg3MA==&amp;hid=8&amp;sn=5bc9ff62fde016849e79d185367abe48&amp;devicetype=iOS10.2.1&amp;version=12020510&amp;lang=zh_CN&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=8jYyBmPPeEumoA4Ll3mKzctUi8XEdeODJD3PoUk9X%2Bc%3D&amp;wx_header=1&amp;scene=1\" target=\"_blank\">全球精选</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mp.weixin.qq.com/mp/homepage?__biz=MzA3OTAxMjg3MA==&amp;hid=3&amp;sn=b20bb7735399245eb62c6eabca6cefc5&amp;devicetype=iOS10.2.1&amp;version=12020510&amp;lang=zh_CN&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=8jYyBmPPeEumoA4Ll3mKzctUi8XEdeODJD3PoUk9X%2Bc%3D&amp;wx_header=1&amp;scene=1\">国内推荐</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"场馆.html\" aria-expanded=\"false\" target=\"_blank\">创业项目</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">知识</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mp.weixin.qq.com/mp/homepage?__biz=MzA3OTAxMjg3MA==&amp;hid=1&amp;sn=f47d7846256fa22d951a23b981e854c5&amp;devicetype=iOS10.2.1&amp;version=12020510&amp;lang=zh_CN&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=8jYyBmPPeEumoA4Ll3mKzctUi8XEdeODJD3PoUk9X%2Bc%3D&amp;wx_header=1&amp;scene=1\">好文</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://wx.xiaomiquan.com/mweb/views/joingroup/join_group.html?group_id=2414151451&amp;secret=l994nh1p8b35q04pxd4l38rrcic0t6uf&amp;extra=5b393916ddae54a1d126b38119326d35705db672173eb0d546dac72756603e13\" target=\"_blank\">收费内参</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&amp;mid=2652889252&amp;idx=3&amp;sn=74a4be1444970913e7b2fd5d4bcdbbfb&amp;chksm=8452b5cdb3253cdb993e5e770ca3126dffb65a1ad69f10d1e707ed6fb0be1cfbeca174b58b5b&amp;mpshare=1&amp;scene=1&amp;srcid=0426m1WDHur9gwBTBwTsc8Ty&amp;key=fd4db26972c531a2ddb131a2f38e2a12a23f67e302c9f692785c9ab7953c285a2a50d722c5abcef7aa3b298f1a1c40fd4c65796df8aefeb411f1ccffa841307de5d85c9e9aa1154ec1a9af91315c9ed5&amp;ascene=0&amp;uin=MTgyODkxMzIw&amp;devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&amp;version=12020510&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=8jYyBmPPeEumoA4Ll3mKzctUi8XEdeODJD3PoUk9X%2Bc%3D\" target=\"_blank\">5/22 圆桌论坛</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"https://mobirise.com/\">登录</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white\" href=\"http://data.newrank.cn/m/s.html?s=NywsPS05PCo5\" target=\"_blank\">注册</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider3",
+          "_styles": {
+            "H2": {
+              "font-size": "46px"
+            }
+          },
+          "_params": {
+            "autoplay": true,
+            "paddingTop": "1",
+            "paddingBottom": "3",
+            "timeout": "5",
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/crossfit-image-2000x694.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "练 吧",
+                "showText": true,
+                "text": "专业的健身类垂直媒体及产业研究评测平台，健身业中的米其林。",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mp.weixin.qq.com/mp/homepage?__biz=MzA3OTAxMjg3MA==&amp;hid=3&amp;sn=b20bb7735399245eb62c6eabca6cefc5&amp;devicetype=iOS10.2.1&amp;version=12020510&amp;lang=zh_CN&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=8jYyBmPPeEumoA4Ll3mKzctUi8XEdeODJD3PoUk9X%2Bc%3D&amp;wx_header=1&amp;scene=1\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">场馆</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">教练</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/wechatimg1-2000x1500.png",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "练吧<br>圆桌论坛<br>",
+                "showText": true,
+                "text": "2017年5月22日<br>上海<br><br>",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"http://lianba2017.mikecrm.com/jAnVwi5\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">在线报名</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&amp;mid=2652889252&amp;idx=3&amp;sn=74a4be1444970913e7b2fd5d4bcdbbfb&amp;chksm=8452b5cdb3253cdb993e5e770ca3126dffb65a1ad69f10d1e707ed6fb0be1cfbeca174b58b5b&amp;mpshare=1&amp;scene=1&amp;srcid=0426m1WDHur9gwBTBwTsc8Ty&amp;key=39cae78ea272251c1b7a98bee61ee062e9a514e9e35d9f2c272479f8f95bd2635b051a225734c695e05df03e072f9a9e09db8764b80b2562082d9bd4cffd0ea14770256de4b8916a0918a09c7fcbed1d&amp;ascene=0&amp;uin=MTgyODkxMzIw&amp;devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&amp;version=12020510&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=8jYyBmPPeEumoA4Ll3mKzctUi8XEdeODJD3PoUk9X%2Bc%3D\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">更多详情</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/wechatimg3-2000x915.png",
+                "playVideo": false,
+                "videoUrl": "",
+                "overlay": true,
+                "contentAlign": "left",
+                "showTitle": true,
+                "title": "零距离领略<br>欧美最新健身趋势",
+                "showText": true,
+                "text": "德国 FIBO 展练吧独家看点（上）",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#fff",
+            "showBullets": true
+          },
+          "_anchor": "slider3-1p",
+          "articleLayout": false
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-7",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Lianba"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-1w",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/wechatimg20-600x450.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "霸气如她，要成为健身界的董明珠 ｜ 567GO创始人刘阳的故事",
+          "subtitle1": "<br>她是一个雷厉风行的女老板，也是一个倍受尊敬的大姐大，她就是567GO的联合创始人兼总经理刘阳。<br><br><br>",
+          "caption1": "",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&amp;mid=2652889282&amp;idx=1&amp;sn=e4be308ec512aa74abb8a451a7950225&amp;chksm=8452b5abb3253cbd8e0bdcd054ff9fdb7aaeb2b333ffa4554d013c86bc5e17dff7f09b31471b&amp;mpshare=1&amp;scene=1&amp;srcid=0426VJ5A6j9Ball4vtbRFUF5&amp;key=e808d65b23065319e58e6e5926aeae6959f5e900fe6d694f8d3461dba3aed4bc96a090e03bd93cf90a7b384bec16a35488f0e037611f1bf5c82ab25c514a603bd4afaefcc71376edc2b476d8f9055833&amp;ascene=0&amp;uin=MTgyODkxMzIw&amp;devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&amp;version=12020510&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=8jYyBmPPeEumoA4Ll3mKzctUi8XEdeODJD3PoUk9X%2Bc%3D\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">阅读全文</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/640-1-600x450.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&mid=2652889252&idx=1&sn=0088d3dd95b76e5a08592906399a5f85&chksm=8452b5cdb3253cdb5cdf7ffe34f18c890b08c9f055ede3469f084069e6550569e2f8fcbc6cc8&mpshare=1&scene=1&srcid=0426Zv2gESOE1yUIy9AmQGCc&key=fbc7d79455ee9c5f43657d0929b2acda5124ee3d226e69e3d72754faf0b64075e742be1d8b9d3db9c8278b40535568e09963408924d6e05a78d7c6f89d39e5a8dfb838c31e038f2c95e32ad9f1744e4e&ascene=0&uin=MTgyODkxMzIw&devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&version=12020510&nettype=WIFI&fontScale=100&pass_ticket=8jYyBmPPeEumoA4Ll3mKzctUi8XEdeODJD3PoUk9X%2Bc%3D",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "从展会看中外健身行业差距｜德国FIBO展练吧独家看点（下）",
+          "subtitle2": "<br>德国时间2017年4月6日，世界规模最大、历史最为悠久的FIBO Cologne于德国科隆国际展览中心拉开大幕，全球逾1000家知名企业以及超过16万名的健身领域专业人士与大众爱好者们参与这个一年一度的行业盛事。",
+          "caption2": "",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&amp;mid=2652889252&amp;idx=1&amp;sn=0088d3dd95b76e5a08592906399a5f85&amp;chksm=8452b5cdb3253cdb5cdf7ffe34f18c890b08c9f055ede3469f084069e6550569e2f8fcbc6cc8&amp;mpshare=1&amp;scene=1&amp;srcid=0426Zv2gESOE1yUIy9AmQGCc&amp;key=6573c25d21514e33e5011a3ae50103eb6b5c5e8a7ff3588b0d57e7b835f873d595baf19ee1811b4aa4e72e89d46016a87b149e96dd65759c7fd4acf5b4b1ce0d9a35b77ac098e57e7c7ca6d4d51f92cd&amp;ascene=0&amp;uin=MTgyODkxMzIw&amp;devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&amp;version=12020510&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=8jYyBmPPeEumoA4Ll3mKzctUi8XEdeODJD3PoUk9X%2Bc%3D\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">阅读全文</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/640-2-600x450.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&mid=2652889195&idx=1&sn=ca6b513a8225b63c364ee0bfbe15fcdc&chksm=8452b502b3253c146862aba602c8da8d5afa4fd3d956cdab3bb32f07d3b5f4a6bf434bd98775&mpshare=1&scene=1&srcid=0426KIP6WRcVGvmU4hFcUqu6&key=93e08353a6986ee70cb6bc988da7fd3acb450f4bdad0b6dccc029419d664afa5b21c3791a9d617fd3f9f434f97258d900610fa5fe1276766abd35b99222832f20bcfbf99ffb22343e1c6e795e665b904&ascene=0&uin=MTgyODkxMzIw&devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&version=12020510&nettype=WIFI&fontScale=100&pass_ticket=8jYyBmPPeEumoA4Ll3mKzctUi8XEdeODJD3PoUk9X%2Bc%3D",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": true
+            }
+          },
+          "title3": "零距离领略欧美最新健身趋势｜德国FIBO展练吧独家看点（上）",
+          "subtitle3": "<br>德国时间2017年4月6日，世界规模最大、历史最为悠久的FIBO Cologne于德国科隆国际展览中心拉开大幕，全球逾1000家知名企业以及超过16万名的健身领域专业人士与大众爱好者们参与这个一年一度的行业盛事。<br>",
+          "caption3": "",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&amp;mid=2652889195&amp;idx=1&amp;sn=ca6b513a8225b63c364ee0bfbe15fcdc&amp;chksm=8452b502b3253c146862aba602c8da8d5afa4fd3d956cdab3bb32f07d3b5f4a6bf434bd98775&amp;mpshare=1&amp;scene=1&amp;srcid=0426KIP6WRcVGvmU4hFcUqu6&amp;key=93e08353a6986ee70cb6bc988da7fd3acb450f4bdad0b6dccc029419d664afa5b21c3791a9d617fd3f9f434f97258d900610fa5fe1276766abd35b99222832f20bcfbf99ffb22343e1c6e795e665b904&amp;ascene=0&amp;uin=MTgyODkxMzIw&amp;devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&amp;version=12020510&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=8jYyBmPPeEumoA4Ll3mKzctUi8XEdeODJD3PoUk9X%2Bc%3D\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\">阅读全文</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/640-600x450.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title4": "为了帮助大家的事业更上一层楼，我们邀请了这个星球上最顶级俱乐部的最顶级人才来跟大家分享最顶级的经验",
+          "subtitle4": "<br>招募最好学<span style=\"font-size: 0.875rem; line-height: 1.7857;\">最具求知欲</span><span style=\"font-size: 0.875rem; line-height: 1.7857;\">最具品牌敏锐度</span><div>的你！<span style=\"font-size: 0.875rem; line-height: 1.7857;\">一起来参加练吧线下圆桌.</span></div><div><span style=\"font-size: 0.875rem; line-height: 1.7857;\"><br></span></div>",
+          "caption4": "",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&amp;mid=2652889252&amp;idx=3&amp;sn=74a4be1444970913e7b2fd5d4bcdbbfb&amp;chksm=8452b5cdb3253cdb993e5e770ca3126dffb65a1ad69f10d1e707ed6fb0be1cfbeca174b58b5b&amp;mpshare=1&amp;scene=1&amp;srcid=0426Fk4Xwtbtqj2zBf74UGDO&amp;key=dfdcee390b63ad8b64831ba14760305daf33193a1632dce1c3eaecfa274ede04f9d63f68ed47965ae90bb7ef9b62e999965b946c480521edcd10bd9dea5131bce14094f71097714b72e0e52112966ed2&amp;ascene=0&amp;uin=MTgyODkxMzIw&amp;devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&amp;version=12020510&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=8jYyBmPPeEumoA4Ll3mKzctUi8XEdeODJD3PoUk9X%2Bc%3D\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">阅读全文</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-28",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": 4,
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true
+          },
+          "media1": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/table.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Bootstrap 4",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "‘Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-2b",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "SOLID COLOR INTRO WITH IMAGE",
+          "text": "Solid color intro with an image on the right side. Also this block has no paddings.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form2",
+          "_anchor": "form2-2c",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": false
+          },
+          "title": "SUBSCRIBE FORM",
+          "subtitle": "Subscribe to our Newsletter",
+          "form": {
+            "action": "504141263@qq.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Your Email Address..."
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SUBSCRIBE</a>"
+        }
+      ]
+    }
+  }
+}
