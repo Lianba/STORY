@@ -496,9 +496,23 @@ h6,
 #msg-box8-18 .lead {
   font-size: 12px;
 }
+#header3-2s .mbr-section-title,
+#header3-2s .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-2s FONT {
+  font-size: 21px;
+}
 #features3-19 H5 {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
+}
+#msg-box8-2t .mbr-section-title,
+#msg-box8-2t p {
+  color: #fff;
+}
+#msg-box5-1m H3 {
+  font-size: 21px;
 }
 #features7-1j .card-subtitle {
   color: #bcbcbc;
@@ -513,8 +527,9 @@ h6,
 #form2-1b .mbr-section-subtitle {
   color: #a0a0a0;
 }
-#form1-1l .form-control-label {
-  color: #232323;
+#form2-1b .mbr-section-title FONT {
+  color: #ffffff;
+  font-size: 21px;
 }
 
 
