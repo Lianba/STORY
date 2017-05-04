@@ -1,7 +1,7 @@
 {
   "settings": {
     "currentPage": "startups.html",
-    "name": "练吧",
+    "name": "LianBa",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -706,7 +706,7 @@
     },
     "startups.html": {
       "settings": {
-        "title": " 练吧",
+        "title": "Lianba",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
