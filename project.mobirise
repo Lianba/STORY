@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "startups.html",
+    "currentPage": "index.html",
     "name": "LianBa",
     "theme": {
       "name": "mobirise3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 102,
+    "uniqCompNum": 103,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": ""
@@ -313,6 +313,102 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&amp;mid=2652889296&amp;idx=4&amp;sn=42897d984b5150340b6339dfd759ba85&amp;chksm=8452b5b9b3253cafd33adf58ea69f2389f09b4c61bb66ae403f147186cf29d0b02f80eee2493&amp;mpshare=1&amp;scene=1&amp;srcid=0503GOOpacjVHM59tmlz5Jf7&amp;key=4892efa73f930618ae5a734b7ad99139aef2a0f4e66ab06249bebd846868844bb20e04c13bd81b1317230d3690f5673c6bbe76437630ab45053dadc28dafefcbd70fe9db7e39920654f7807e63878658&amp;ascene=0&amp;uin=MTgyODkxMzIw&amp;devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&amp;version=12020510&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=Kx%2FhSC2OV1dMcI78vsjCYvz96tEUz94trv08t9RTQP8%3D\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">阅读全文</a>"
         },
         {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery4",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/code-man-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/coworkers-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/desktop-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/room-laptop-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/table-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/table.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/windows-books-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/working-area-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/working-area.jpg",
+                "caption": "Type caption here"
+              }
+            ],
+            "spacing": 1,
+            "showText": false,
+            "filter": true,
+            "bgColor": "fff",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery4-2u",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
@@ -332,7 +428,7 @@
             "bgColor": "#fff",
             "showMeta": true
           },
-          "title": "<span style=\"color: inherit; font-size: 3rem; line-height: 1.1;\"><br></span><br><span style=\"color: inherit; font-size: 3rem; line-height: 1.1;\">最新推送</span><br>",
+          "title": "<span style=\"color: inherit; font-size: 3rem; line-height: 1.1;\"><br></span><span style=\"color: inherit; font-size: 3rem; line-height: 1.1;\">往期推送</span><br>",
           "meta": "By JustinChian posted Apr 30, 2017"
         },
         {
@@ -378,7 +474,7 @@
           "title1": "当SoulCycle的教练是一种怎样的体验？",
           "subtitle1": "典型的SoulCycle教练外表不输娱乐明星",
           "caption1": "如果回到2006，SoulCycle 给人的感觉也许还只是诸多稍纵即逝的健身潮流中的一种，但这个在曼哈顿起步的自行车工作室如今已变成席卷全美的健身界当红辣子鸡。遍布美国全境的工作室，平均每家店能带来400万美元一年的收入，最初两个联合创始人的团队已经扩展到上千名员工。",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&amp;mid=2652889296&amp;idx=1&amp;sn=a6c575e54e316c37e9e08efd705a0dd3&amp;chksm=8452b5b9b3253caf65b53a985ecbbc0651727a1684b7ed2377315d0b1ce62579088e08e686ba&amp;mpshare=1&amp;scene=1&amp;srcid=0503jhAIbhzBHz7r3RAWuhMp&amp;key=cf67205801fa7440dc2ef05e5bd46a7f94f7c840e45a7dc68e24e886c72ee4115647ef2b7c70e2803cc6b02135cdac880e86fd5a878199196330cb5863ffcf2c48e9daeef0f22f65f8b56f61a36d093d&amp;ascene=0&amp;uin=MTgyODkxMzIw&amp;devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&amp;version=12020510&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=WUvniYdt2grNco5VoURnskggVfl1mt4ao1zKHuFIIS0%3D\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">阅读原文</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&amp;mid=2652889296&amp;idx=1&amp;sn=a6c575e54e316c37e9e08efd705a0dd3&amp;chksm=8452b5b9b3253caf65b53a985ecbbc0651727a1684b7ed2377315d0b1ce62579088e08e686ba&amp;mpshare=1&amp;scene=1&amp;srcid=0503jhAIbhzBHz7r3RAWuhMp&amp;key=cf67205801fa7440dc2ef05e5bd46a7f94f7c840e45a7dc68e24e886c72ee4115647ef2b7c70e2803cc6b02135cdac880e86fd5a878199196330cb5863ffcf2c48e9daeef0f22f65f8b56f61a36d093d&amp;ascene=0&amp;uin=MTgyODkxMzIw&amp;devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&amp;version=12020510&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=WUvniYdt2grNco5VoURnskggVfl1mt4ao1zKHuFIIS0%3D\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">阅读原文</a>",
           "media2": {
             "image": {
               "src": "@PROJECT_PATH@/assets/images/ads-nike-vs-adidas-2-600x503.jpg",
@@ -394,7 +490,7 @@
           "title2": "阿迪是如何赶超耐克的？",
           "subtitle2": "GQ的编辑采访了阿迪公司的全球品牌战略副总裁Arthur Hoeld",
           "caption2": "仅仅在几年之前，耐克和阿迪达斯在全球市场上竞争运动鞋品牌领头地位的战役似乎已经结束，耐克显然是胜者。钩子的品牌不仅更大，而且鞋子更酷。<span style=\"font-size: 1rem; line-height: 1.5;\">但是，到了2017年，情况就不同了。现在阿迪达斯和坎耶·维斯特（Kanye West）的合作正热，小孩都排队抢购阿迪限量版的NMD和跑步鞋UltraBoost 了，已经成了健身房和大街上的主流品牌。</span><br>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&amp;mid=2652889296&amp;idx=2&amp;sn=d144f27d9a8f36ee77c04f6d7159fd60&amp;chksm=8452b5b9b3253cafa65179b2e0f35e830309b49dfbe4c2c1ad696f93992a556af0aabc61e3c3&amp;mpshare=1&amp;scene=1&amp;srcid=0503liykQ3Uv2dNLGbk4qJVd&amp;key=08cbc7040f418e919f2684ef2bfda5ba347862c4bec9f4a97fa58690bd60e2689e733a2705ee0f6a462ae0c3a867158d5ef3ead48c9f5b2dbc84a0fb0881bdb9dc327b6fce3d0ae8c412c24e2bad149e&amp;ascene=0&amp;uin=MTgyODkxMzIw&amp;devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&amp;version=12020510&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=WUvniYdt2grNco5VoURnskggVfl1mt4ao1zKHuFIIS0%3D\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">阅读全文</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&amp;mid=2652889296&amp;idx=2&amp;sn=d144f27d9a8f36ee77c04f6d7159fd60&amp;chksm=8452b5b9b3253cafa65179b2e0f35e830309b49dfbe4c2c1ad696f93992a556af0aabc61e3c3&amp;mpshare=1&amp;scene=1&amp;srcid=0503liykQ3Uv2dNLGbk4qJVd&amp;key=08cbc7040f418e919f2684ef2bfda5ba347862c4bec9f4a97fa58690bd60e2689e733a2705ee0f6a462ae0c3a867158d5ef3ead48c9f5b2dbc84a0fb0881bdb9dc327b6fce3d0ae8c412c24e2bad149e&amp;ascene=0&amp;uin=MTgyODkxMzIw&amp;devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&amp;version=12020510&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=WUvniYdt2grNco5VoURnskggVfl1mt4ao1zKHuFIIS0%3D\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">阅读全文</a>",
           "media3": {
             "image": {
               "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
@@ -442,27 +538,12 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
-        },
-        {
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
+            "P": {
+              "color": "#5b5b5b"
             }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-2m",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff",
-            "showMeta": true
-          },
-          "title": "往期推送",
-          "meta": ""
+          }
         },
         {
           "_tags": [
@@ -872,7 +953,7 @@
           },
           "title": "Fitness Startups",
           "text": "<p><br></p><p>再微弱的一束光，也要洒向需要光明的角落。</p>",
-          "button": " <a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">工作室申请</a> <a data-app-btn=\"true\" class=\"btn btn-white\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">教练专访申请</a>     "
+          "button": " <a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">工作室</a> <a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">教练</a>     "
         },
         {
           "_styles": {
@@ -1139,6 +1220,11 @@
             "Theme"
           ],
           "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "font-size": "21px"
+            }
+          },
           "_anchor": "msg-box5-1m",
           "_params": {
             "imageSize": 50,
@@ -1181,12 +1267,7 @@
           },
           "title": "BE STRONG <br>TO BE USEFUL",
           "text": "飞翔的荷兰人 Oki 的故事",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">阅读全文</a>",
-          "_styles": {
-            "H3": {
-              "font-size": "21px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">阅读全文</a>"
         },
         {
           "_inherit": "features4",

@@ -512,9 +512,8 @@ h6,
 #header3-2g SMALL {
   font-size: 14px;
 }
-#header3-2m .mbr-section-title,
-#header3-2m .mbr-section-subtitle {
-  text-align: center;
+#features3-28 P {
+  color: #5b5b5b;
 }
 #form1-2p .form-control-label {
   color: #232323;
