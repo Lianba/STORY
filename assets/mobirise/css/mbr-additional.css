@@ -500,10 +500,14 @@ h6,
   color: #000000;
 }
 #msg-box5-2j H3 {
-  font-size: 36px;
+  font-size: 20px;
 }
 #msg-box5-2j P {
   font-family: 'Montserrat', sans-serif;
+}
+#header3-2w .mbr-section-title,
+#header3-2w .mbr-section-subtitle {
+  text-align: center;
 }
 #header3-2g .mbr-section-title,
 #header3-2g .mbr-section-subtitle {
@@ -514,6 +518,7 @@ h6,
 }
 #features3-28 P {
   color: #5b5b5b;
+  text-align: left;
 }
 #form1-2p .form-control-label {
   color: #232323;

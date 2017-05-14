@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 103,
+    "uniqCompNum": 109,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": ""
@@ -228,8 +228,8 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-2h",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
@@ -257,7 +257,7 @@
           "_name": "msg-box5",
           "_styles": {
             "H3": {
-              "font-size": "36px"
+              "font-size": "20px"
             },
             "P": {
               "font-family": "'Montserrat', sans-serif",
@@ -313,97 +313,48 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&amp;mid=2652889296&amp;idx=4&amp;sn=42897d984b5150340b6339dfd759ba85&amp;chksm=8452b5b9b3253cafd33adf58ea69f2389f09b4c61bb66ae403f147186cf29d0b02f80eee2493&amp;mpshare=1&amp;scene=1&amp;srcid=0503GOOpacjVHM59tmlz5Jf7&amp;key=4892efa73f930618ae5a734b7ad99139aef2a0f4e66ab06249bebd846868844bb20e04c13bd81b1317230d3690f5673c6bbe76437630ab45053dadc28dafefcbd70fe9db7e39920654f7807e63878658&amp;ascene=0&amp;uin=MTgyODkxMzIw&amp;devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&amp;version=12020510&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=Kx%2FhSC2OV1dMcI78vsjCYvz96tEUz94trv08t9RTQP8%3D\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">阅读全文</a>"
         },
         {
-          "_inherit": "gallery1",
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "gallery4",
+          "_name": "header3",
+          "_anchor": "header3-2w",
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": 0,
-            "images": [
-              {
-                "tags": "专访",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "吃练 ",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/coworkers-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "评测",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/room-laptop-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "调研",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/desktop-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "视频",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/windows-books-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "运营",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/table-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/table.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "场馆",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/working-area-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/working-area.jpg",
-                "caption": "Type caption here",
-                "active": true
-              }
-            ],
-            "spacing": "1",
-            "showText": true,
-            "filter": true,
-            "bgColor": "fff",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": false
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
           },
-          "_anchor": "gallery4-2u",
-          "articleLayout": false,
-          "allItem": "全部"
+          "title": "<br>Title with Solid Background Color",
+          "meta": "By John Smith posted July 20, 2016<br><br>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-2y",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgColor": "#000000",
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/image1.jpg",
+              "width": 1400
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
         },
         {
           "_styles": {
@@ -425,15 +376,15 @@
             "bgColor": "#fff",
             "showMeta": true
           },
-          "title": "<span style=\"color: inherit; font-size: 3rem; line-height: 1.1;\"><br></span><span style=\"color: inherit; font-size: 3rem; line-height: 1.1;\">往期推送</span><br>",
-          "meta": "By JustinChian posted Apr 30, 2017"
+          "title": "<span style=\"color: inherit; font-size: 3rem; line-height: 1.1;\"><br></span><span style=\"color: inherit; font-size: 3rem; line-height: 1.1;\">最新推送</span><br>",
+          "meta": "By Justin Chian posted May 11, 2017"
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "features3",
-          "_anchor": "features3-28",
+          "_anchor": "features3-30",
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
@@ -458,36 +409,28 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/soulcycle-main-600x503.jpg",
+              "src": "@THEME_PATH@/components/_images/gallery/table.jpg",
               "class": "card-img-top",
               "width": 600,
-              "active": true,
-              "link": "https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&mid=2652889296&idx=1&sn=a6c575e54e316c37e9e08efd705a0dd3&chksm=8452b5b9b3253caf65b53a985ecbbc0651727a1684b7ed2377315d0b1ce62579088e08e686ba&mpshare=1&scene=1&srcid=0503jhAIbhzBHz7r3RAWuhMp&key=cf67205801fa7440dc2ef05e5bd46a7f94f7c840e45a7dc68e24e886c72ee4115647ef2b7c70e2803cc6b02135cdac880e86fd5a878199196330cb5863ffcf2c48e9daeef0f22f65f8b56f61a36d093d&ascene=0&uin=MTgyODkxMzIw&devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&version=12020510&nettype=WIFI&fontScale=100&pass_ticket=WUvniYdt2grNco5VoURnskggVfl1mt4ao1zKHuFIIS0%3D",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": true
+              "active": true
             }
           },
-          "title1": "当SoulCycle的教练是一种怎样的体验？",
-          "subtitle1": "典型的SoulCycle教练外表不输娱乐明星",
-          "caption1": "如果回到2006，SoulCycle 给人的感觉也许还只是诸多稍纵即逝的健身潮流中的一种，但这个在曼哈顿起步的自行车工作室如今已变成席卷全美的健身界当红辣子鸡。遍布美国全境的工作室，平均每家店能带来400万美元一年的收入，最初两个联合创始人的团队已经扩展到上千名员工。",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&amp;mid=2652889296&amp;idx=1&amp;sn=a6c575e54e316c37e9e08efd705a0dd3&amp;chksm=8452b5b9b3253caf65b53a985ecbbc0651727a1684b7ed2377315d0b1ce62579088e08e686ba&amp;mpshare=1&amp;scene=1&amp;srcid=0503jhAIbhzBHz7r3RAWuhMp&amp;key=cf67205801fa7440dc2ef05e5bd46a7f94f7c840e45a7dc68e24e886c72ee4115647ef2b7c70e2803cc6b02135cdac880e86fd5a878199196330cb5863ffcf2c48e9daeef0f22f65f8b56f61a36d093d&amp;ascene=0&amp;uin=MTgyODkxMzIw&amp;devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&amp;version=12020510&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=WUvniYdt2grNco5VoURnskggVfl1mt4ao1zKHuFIIS0%3D\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">阅读原文</a>",
+          "title1": "Bootstrap 4",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/ads-nike-vs-adidas-2-600x503.jpg",
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
               "class": "card-img-top",
               "width": 600,
-              "active": true,
-              "link": "https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&mid=2652889296&idx=2&sn=d144f27d9a8f36ee77c04f6d7159fd60&chksm=8452b5b9b3253cafa65179b2e0f35e830309b49dfbe4c2c1ad696f93992a556af0aabc61e3c3&mpshare=1&scene=1&srcid=0503liykQ3Uv2dNLGbk4qJVd&key=08cbc7040f418e919f2684ef2bfda5ba347862c4bec9f4a97fa58690bd60e2689e733a2705ee0f6a462ae0c3a867158d5ef3ead48c9f5b2dbc84a0fb0881bdb9dc327b6fce3d0ae8c412c24e2bad149e&ascene=0&uin=MTgyODkxMzIw&devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&version=12020510&nettype=WIFI&fontScale=100&pass_ticket=WUvniYdt2grNco5VoURnskggVfl1mt4ao1zKHuFIIS0%3D",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": true
+              "active": true
             }
           },
-          "title2": "阿迪是如何赶超耐克的？",
-          "subtitle2": "GQ的编辑采访了阿迪公司的全球品牌战略副总裁Arthur Hoeld",
-          "caption2": "仅仅在几年之前，耐克和阿迪达斯在全球市场上竞争运动鞋品牌领头地位的战役似乎已经结束，耐克显然是胜者。钩子的品牌不仅更大，而且鞋子更酷。<span style=\"font-size: 1rem; line-height: 1.5;\">但是，到了2017年，情况就不同了。现在阿迪达斯和坎耶·维斯特（Kanye West）的合作正热，小孩都排队抢购阿迪限量版的NMD和跑步鞋UltraBoost 了，已经成了健身房和大街上的主流品牌。</span><br>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&amp;mid=2652889296&amp;idx=2&amp;sn=d144f27d9a8f36ee77c04f6d7159fd60&amp;chksm=8452b5b9b3253cafa65179b2e0f35e830309b49dfbe4c2c1ad696f93992a556af0aabc61e3c3&amp;mpshare=1&amp;scene=1&amp;srcid=0503liykQ3Uv2dNLGbk4qJVd&amp;key=08cbc7040f418e919f2684ef2bfda5ba347862c4bec9f4a97fa58690bd60e2689e733a2705ee0f6a462ae0c3a867158d5ef3ead48c9f5b2dbc84a0fb0881bdb9dc327b6fce3d0ae8c412c24e2bad149e&amp;ascene=0&amp;uin=MTgyODkxMzIw&amp;devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&amp;version=12020510&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=WUvniYdt2grNco5VoURnskggVfl1mt4ao1zKHuFIIS0%3D\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">阅读全文</a>",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
               "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
@@ -498,8 +441,8 @@
           },
           "title3": "Web Fonts",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "‘Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "image": {
               "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
@@ -535,10 +478,128 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-28",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "4",
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/640-600x503.png",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&mid=2652889307&idx=1&sn=3b27d86e1452857da2d708dd98d5111a&chksm=8452b5b2b3253ca4ab4b62b89637b45cc76ed26f003208e9c084c67408c80a51a780daf2c385&mpshare=1&scene=1&srcid=0514tYxvAwNxHHC1dJ3SoDR8&key=02183385816695e939dbed59f48e8c927c6a26678e60bf951a9e8cdbca51bef1baac2f786c230f2cd15fa4033a163f8c4b94ccff9f3e35a62d0a1cc9f5c53f3bdcfa819e6901e19d2578106ee2624454&ascene=0&uin=MTgyODkxMzIw&devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&version=12020510&nettype=WIFI&fontScale=100&pass_ticket=ixjvqAgmr7dn%2FB4KWS9jyYWZv9%2BkO%2BEVVeaV2pEKa0E%3D",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": true
+            }
+          },
+          "title1": "健身圈的那些妄人<br><br>",
+          "subtitle1": "<span style=\"font-size: 0.875rem; line-height: 1.7857;\">“妄人”这个词，似乎最近经常被提及，那么它到底什么意思？</span><br>",
+          "caption1": "“掌握一门手艺，让知识穿过自己的身体，从而让自己对世界有觉察，而不至于成为一个妄人。”“妄人”这个词，似乎最近经常被提及，那么它到底什么意思？<span style=\"font-size: 1rem; line-height: 1.5;\">意思通俗的说就是，君子遭遇了蛮横妄为的人的刁难，如反省自身并没有犯错，那么这个狂妄自大的人就跟禽兽一样，君子就没必要跟禽兽计较。</span><br>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&amp;mid=2652889307&amp;idx=1&amp;sn=3b27d86e1452857da2d708dd98d5111a&amp;chksm=8452b5b2b3253ca4ab4b62b89637b45cc76ed26f003208e9c084c67408c80a51a780daf2c385&amp;mpshare=1&amp;scene=1&amp;srcid=0514tYxvAwNxHHC1dJ3SoDR8&amp;key=02183385816695e939dbed59f48e8c927c6a26678e60bf951a9e8cdbca51bef1baac2f786c230f2cd15fa4033a163f8c4b94ccff9f3e35a62d0a1cc9f5c53f3bdcfa819e6901e19d2578106ee2624454&amp;ascene=0&amp;uin=MTgyODkxMzIw&amp;devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&amp;version=12020510&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=ixjvqAgmr7dn%2FB4KWS9jyYWZv9%2BkO%2BEVVeaV2pEKa0E%3D\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">阅读原文</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/oatmeal-exp-600x503.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&mid=2652889296&idx=2&sn=d144f27d9a8f36ee77c04f6d7159fd60&chksm=8452b5b9b3253cafa65179b2e0f35e830309b49dfbe4c2c1ad696f93992a556af0aabc61e3c3&mpshare=1&scene=1&srcid=0503liykQ3Uv2dNLGbk4qJVd&key=08cbc7040f418e919f2684ef2bfda5ba347862c4bec9f4a97fa58690bd60e2689e733a2705ee0f6a462ae0c3a867158d5ef3ead48c9f5b2dbc84a0fb0881bdb9dc327b6fce3d0ae8c412c24e2bad149e&ascene=0&uin=MTgyODkxMzIw&devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&version=12020510&nettype=WIFI&fontScale=100&pass_ticket=WUvniYdt2grNco5VoURnskggVfl1mt4ao1zKHuFIIS0%3D",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": true
+            }
+          },
+          "title2": "早锻炼前要吃东西？<br>不要吃东西？",
+          "subtitle2": "<span style=\"font-size: 0.875rem; line-height: 1.7857;\">哎呦卧槽，该听谁的？</span><br>",
+          "caption2": "早上起来进行锻炼通常是最被推荐的，理由有很多：能帮助你早起；反正要洗澡，不如出出汗；很多人会被加班拖住无法实施锻炼计划，而早上则不会有这个烦恼；早上锻炼好了，晚上就有时间约会或者追剧……但对于很多热衷于早锻炼的人来说，却有着一个长期以来众说纷纭的问题，那就是“锻炼前该不该吃早饭？”<br>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&amp;mid=2652889307&amp;idx=2&amp;sn=1dbc9fe87ddab6c618bc56b20a62db51&amp;chksm=8452b5b2b3253ca44b7ff2fcb53264d8fa8803f5bb5532735ae2d777de21418567895912d95c&amp;mpshare=1&amp;scene=1&amp;srcid=0514wygead5l6PTDhYIO0p5a&amp;key=02183385816695e9cafa425390f8f9f45c2c5cace6c0f0aa9aa24cbb9bf8efb031f9e0fedf17576d07e8579be09788d43c3be6c44b1f0238efb042ac773150072b15f23649a0a6fd94fc00da4bdedb76&amp;ascene=0&amp;uin=MTgyODkxMzIw&amp;devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&amp;version=12020510&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=ixjvqAgmr7dn%2FB4KWS9jyYWZv9%2BkO%2BEVVeaV2pEKa0E%3D\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">阅读全文</a>",
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/soulcycle-main-600x503.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&mid=2652889296&idx=1&sn=a6c575e54e316c37e9e08efd705a0dd3&chksm=8452b5b9b3253caf65b53a985ecbbc0651727a1684b7ed2377315d0b1ce62579088e08e686ba&mpshare=1&scene=1&srcid=0503jhAIbhzBHz7r3RAWuhMp&key=cf67205801fa7440dc2ef05e5bd46a7f94f7c840e45a7dc68e24e886c72ee4115647ef2b7c70e2803cc6b02135cdac880e86fd5a878199196330cb5863ffcf2c48e9daeef0f22f65f8b56f61a36d093d&ascene=0&uin=MTgyODkxMzIw&devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&version=12020510&nettype=WIFI&fontScale=100&pass_ticket=WUvniYdt2grNco5VoURnskggVfl1mt4ao1zKHuFIIS0%3D",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": true
+            }
+          },
+          "title3": "当SoulCycle的教练是一种怎样的体验",
+          "subtitle3": "典型的SoulCycle教练外表不输娱乐明星",
+          "caption3": "‘如果回到2006，SoulCycle 给人的感觉也许还只是诸多稍纵即逝的健身潮流中的一种，但这个在曼哈顿起步的自行车工作室如今已变成席卷全美的健身界当红辣子鸡。遍布美国全境的工作室，平均每家店能带来400万美元一年的收入，最初两个联合创始人的团队已经扩展到上千名员工。<br><br>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&amp;mid=2652889296&amp;idx=1&amp;sn=a6c575e54e316c37e9e08efd705a0dd3&amp;chksm=8452b5b9b3253caf65b53a985ecbbc0651727a1684b7ed2377315d0b1ce62579088e08e686ba&amp;mpshare=1&amp;scene=1&amp;srcid=0503jhAIbhzBHz7r3RAWuhMp&amp;key=cf67205801fa7440dc2ef05e5bd46a7f94f7c840e45a7dc68e24e886c72ee4115647ef2b7c70e2803cc6b02135cdac880e86fd5a878199196330cb5863ffcf2c48e9daeef0f22f65f8b56f61a36d093d&amp;ascene=0&amp;uin=MTgyODkxMzIw&amp;devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&amp;version=12020510&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=WUvniYdt2grNco5VoURnskggVfl1mt4ao1zKHuFIIS0%3D\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">阅读全文</a>",
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/ads-nike-vs-adidas-2-600x503.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&mid=2652889296&idx=2&sn=d144f27d9a8f36ee77c04f6d7159fd60&chksm=8452b5b9b3253cafa65179b2e0f35e830309b49dfbe4c2c1ad696f93992a556af0aabc61e3c3&mpshare=1&scene=1&srcid=0503liykQ3Uv2dNLGbk4qJVd&key=08cbc7040f418e919f2684ef2bfda5ba347862c4bec9f4a97fa58690bd60e2689e733a2705ee0f6a462ae0c3a867158d5ef3ead48c9f5b2dbc84a0fb0881bdb9dc327b6fce3d0ae8c412c24e2bad149e&ascene=0&uin=MTgyODkxMzIw&devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&version=12020510&nettype=WIFI&fontScale=100&pass_ticket=WUvniYdt2grNco5VoURnskggVfl1mt4ao1zKHuFIIS0%3D",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": true
+            }
+          },
+          "title4": "阿迪是如何赶超耐克的？",
+          "subtitle4": "GQ的编辑采访了阿迪公司的全球品牌战略副总裁Arthur Hoeld",
+          "caption4": "仅仅在几年之前，耐克和阿迪达斯在全球市场上竞争运动鞋品牌领头地位的战役似乎已经结束，耐克显然是胜者。钩子的品牌不仅更大，而且鞋子更酷。但是，到了2017年，情况就不同了。现在阿迪达斯和坎耶·维斯特（Kanye West）的合作正热，小孩都排队抢购阿迪限量版的NMD和跑步鞋UltraBoost 了，已经成了健身房和大街上的主流品牌。",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&amp;mid=2652889296&amp;idx=2&amp;sn=d144f27d9a8f36ee77c04f6d7159fd60&amp;chksm=8452b5b9b3253cafa65179b2e0f35e830309b49dfbe4c2c1ad696f93992a556af0aabc61e3c3&amp;mpshare=1&amp;scene=1&amp;srcid=0503liykQ3Uv2dNLGbk4qJVd&amp;key=08cbc7040f418e919f2684ef2bfda5ba347862c4bec9f4a97fa58690bd60e2689e733a2705ee0f6a462ae0c3a867158d5ef3ead48c9f5b2dbc84a0fb0881bdb9dc327b6fce3d0ae8c412c24e2bad149e&amp;ascene=0&amp;uin=MTgyODkxMzIw&amp;devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&amp;version=12020510&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=WUvniYdt2grNco5VoURnskggVfl1mt4ao1zKHuFIIS0%3D\" class=\"btn btn-info\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">阅读全文</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "_styles": {
             "P": {
-              "color": "#5b5b5b"
+              "color": "#5b5b5b",
+              "text-align": "left"
             }
           }
         },
@@ -680,6 +741,99 @@
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery4",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": 0,
+            "images": [
+              {
+                "tags": "专访",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "吃练 ",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/coworkers-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "评测",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/room-laptop-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "调研",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/desktop-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "视频",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/windows-books-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "运营",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/table-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/table.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "场馆",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@THEME_PATH@/components/_images/gallery/working-area-small.jpg",
+                "image": "@THEME_PATH@/components/_images/gallery/working-area.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "1",
+            "showText": true,
+            "filter": true,
+            "bgColor": "fff",
+            "filterBgColor": false,
+            "fullWidth": false,
+            "showBullets": false
+          },
+          "_anchor": "gallery4-2u",
+          "articleLayout": false,
+          "allItem": "全部"
+        },
+        {
           "_tags": [
             "Theme"
           ],
@@ -778,7 +932,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">订阅</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">订阅</a>"
         }
       ]
     },
