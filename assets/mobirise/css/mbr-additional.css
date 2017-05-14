@@ -505,16 +505,15 @@ h6,
 #msg-box5-2j P {
   font-family: 'Montserrat', sans-serif;
 }
-#header3-2w .mbr-section-title,
-#header3-2w .mbr-section-subtitle {
-  text-align: center;
-}
 #header3-2g .mbr-section-title,
 #header3-2g .mbr-section-subtitle {
   text-align: center;
 }
 #header3-2g SMALL {
   font-size: 14px;
+}
+#features3-30 P {
+  text-align: left;
 }
 #features3-28 P {
   color: #5b5b5b;

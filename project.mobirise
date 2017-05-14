@@ -316,50 +316,6 @@
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-2w",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff",
-            "showMeta": true
-          },
-          "title": "<br>Title with Solid Background Color",
-          "meta": "By John Smith posted July 20, 2016<br><br>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "image2",
-          "_anchor": "image2-2y",
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "bgColor": "#000000",
-            "showText": true
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "src": "@THEME_PATH@/components/_images/image1.jpg",
-              "width": 1400
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
-            }
-          },
-          "text": "Create awesome mobile-friendly websites. No coding and free."
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
             },
             "SMALL": {
               "font-size": "14px"
@@ -409,16 +365,20 @@
           },
           "media1": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/table.jpg",
+              "src": "@PROJECT_PATH@/assets/images/wechatimg6-600x400.png",
               "class": "card-img-top",
               "width": 600,
-              "active": true
+              "active": true,
+              "link": "https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&mid=2652889331&idx=1&sn=75d24f9d6360aa6020a692146f422d67&chksm=8452b59ab3253c8cdb914a0fe6169fe2a5c0f4ffca24c30712a8306a40570c917dd738f689ae&mpshare=1&scene=1&srcid=05140b1DYQX1hntrgruqHhD5&key=c0d304c1e6562dd47a236a8e70b348ff683917ee29ba49e1f71e527b5230668feed17fc7a06923372e76b1a450e660b3182738a1b416376dce8bdcf45486c6c0b22252f675cf227e9d77c8546e170345&ascene=0&uin=MTgyODkxMzIw&devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&version=12020510&nettype=WIFI&fontScale=100&pass_ticket=ixjvqAgmr7dn%2FB4KWS9jyYWZv9%2BkO%2BEVVeaV2pEKa0E%3D",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": true
             }
           },
-          "title1": "Bootstrap 4",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "title1": "热爱健身 ，所以要把这门生意做好",
+          "subtitle1": "CrossFit Slash&amp;Raw Fitness创始人王天华",
+          "caption1": "近些年随着健身行业的蓬勃发展，很多从其他行业跨界而来的人士参与到健身创业或管理工作中来，他们绝大多数是狂热的健身爱好者，因为爱好和对行业前景看好而毅然投身其中。<br><br>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mp.weixin.qq.com/s?__biz=MzA3OTAxMjg3MA==&amp;mid=2652889331&amp;idx=1&amp;sn=75d24f9d6360aa6020a692146f422d67&amp;chksm=8452b59ab3253c8cdb914a0fe6169fe2a5c0f4ffca24c30712a8306a40570c917dd738f689ae&amp;mpshare=1&amp;scene=1&amp;srcid=05140b1DYQX1hntrgruqHhD5&amp;key=c0d304c1e6562dd47a236a8e70b348ff683917ee29ba49e1f71e527b5230668feed17fc7a06923372e76b1a450e660b3182738a1b416376dce8bdcf45486c6c0b22252f675cf227e9d77c8546e170345&amp;ascene=0&amp;uin=MTgyODkxMzIw&amp;devicetype=iMac+MacBook9%2C1+OSX+OSX+10.11.6+build(15G1421)&amp;version=12020510&amp;nettype=WIFI&amp;fontScale=100&amp;pass_ticket=ixjvqAgmr7dn%2FB4KWS9jyYWZv9%2BkO%2BEVVeaV2pEKa0E%3D\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">阅读全文</a>",
           "media2": {
             "image": {
               "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
@@ -478,7 +438,12 @@
           "title6": "Host Anywhere",
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          }
         },
         {
           "_tags": [
@@ -739,99 +704,6 @@
           "subtitle6": "Don't limit yourself to just one platform",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
-        },
-        {
-          "_inherit": "gallery1",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery4",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": 0,
-            "images": [
-              {
-                "tags": "专访",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/bike-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/bike.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "吃练 ",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/coworkers-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "评测",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/room-laptop-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "调研",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/desktop-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "视频",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/windows-books-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "运营",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/table-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/table.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "场馆",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/working-area-small.jpg",
-                "image": "@THEME_PATH@/components/_images/gallery/working-area.jpg",
-                "caption": "Type caption here",
-                "active": true
-              }
-            ],
-            "spacing": "1",
-            "showText": true,
-            "filter": true,
-            "bgColor": "fff",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": false
-          },
-          "_anchor": "gallery4-2u",
-          "articleLayout": false,
-          "allItem": "全部"
         },
         {
           "_tags": [
